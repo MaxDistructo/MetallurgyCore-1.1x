@@ -6,7 +6,7 @@ import net.minecraft.world.World;
 
 import com.teammetallurgy.metallurgycore.machines.TileEntityMetallurgy;
 
-import cpw.mods.fml.common.network.IGuiHandler;
+import net.minecraftforge.fml.common.network.IGuiHandler;
 
 public abstract class GUIHandler implements IGuiHandler
 {
