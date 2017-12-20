@@ -3,10 +3,10 @@ package com.teammetallurgy.metallurgycore;
 import com.teammetallurgy.metallurgycore.handlers.ConfigHandler;
 import com.teammetallurgy.metallurgycore.handlers.LogHandler;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(name = MetallurgyCore.MODNAME, modid = MetallurgyCore.MODID, version = MetallurgyCore.VERSION)
 public class MetallurgyCore
