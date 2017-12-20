@@ -12,12 +12,12 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
     }
 }
 apply plugin: 'forge'
 
-version = "4.0"
+version = "6.0.0"
 group= "com.teammetallurgy" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MetallurgyCore"
 
@@ -88,13 +88,5 @@ task deobfJar(type: Jar) {
 
 artifacts {
     archives deobfJar
-}
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url : "file:///var/www/html/maven")
-        }
-    }
 }
 
