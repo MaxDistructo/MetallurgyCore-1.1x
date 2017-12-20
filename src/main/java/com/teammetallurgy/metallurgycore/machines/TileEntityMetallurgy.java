@@ -16,7 +16,7 @@ import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraft.world.World;
-import cpw.mods.fml.common.Optional;
+import net.minecraftforge.fml.common.Optional;
 
 @Optional.Interface(iface = "vazkii.botania.api.item.IExoflameHeatable", modid = "Botania")
 public abstract class TileEntityMetallurgy extends TileEntity implements IInventory,IExoflameHeatable
