@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import com.teammetallurgy.metallurgycore.handlers.ConfigHandler;
 import com.teammetallurgy.metallurgycore.utils.ItemOreFinder;
 
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemList
 {
